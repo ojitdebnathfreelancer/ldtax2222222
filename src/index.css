@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.bg-blue {
+   background: #4b8df8;
+}
+
+.text-blue {
+   color: #4b8df8;
+}
+
+.bg-purple {
+   background: #683091;
+}
+
+.text-purple {
+   color: #683091;
+}
+
+.bg-green {
+   background: #8dc641;
+}
+
+.text-green {
+   color: #8dc641;
+}
+.text-gray {
+   color: #333;
+}
+/* color: #8dc641;
+} */
+
+.login-bg {
+   background: rgba(255, 255, 255, 0.6);
+}
+
+.main-login .input-container label {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   background: #fff;
+   padding: 10px 5px;
+   margin-top: 15px;
+   border-radius: 5px;
+   border: 1px solid rgb(210, 210, 210);
+}
+
+.main-login .input-container label svg {
+   color: #ccc;
+   font-size: 25px;
+   margin-right: 10px;
+}
+
+.main-login .input-container label input {
+   width: 100%;
+   border: none;
+   background-color: #fff;
+   outline: none;
+}
